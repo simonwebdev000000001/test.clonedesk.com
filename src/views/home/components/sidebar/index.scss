@@ -1,0 +1,34 @@
+
+.page-sidebar .page-sidebar-menu li>a>.badge, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li>a>.badge {
+  float: right;
+  margin-top: 1px;
+  margin-right: 0;
+  position: absolute;
+  right: 14px;
+  top: 6px;
+}
+.page-sidebar .badge {
+  font-size: 10px!important;
+}
+.badge {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 4px 6px 2px;
+}
+.badge-danger {
+  background-color: #ed6b75;
+}
+.badge {
+  font-size: 11px!important;
+  height: 18px;
+  color: #fff;
+  -webkit-border-radius: 12px!important;
+  -moz-border-radius: 12px!important;
+  border-radius: 12px!important;
+  text-shadow: none!important;
+  text-align: center;
+  vertical-align: middle;
+}
+.badge-danger, .badge-default, .badge-info, .badge-primary, .badge-success, .badge-warning, .btn.white:not(.btn-outline).active, .btn.white:not(.btn-outline):active, .open>.btn.white:not(.btn-outline).dropdown-toggle {
+  background-image: none;
+}

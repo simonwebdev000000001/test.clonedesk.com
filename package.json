@@ -1,0 +1,61 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "23.3.13",
+    "@types/material-ui": "^0.21.6",
+    "@types/node": "10.12.21",
+    "@types/react": "16.8.1",
+    "@types/react-dom": "16.0.11",
+    "@types/react-redux": "^7.0.5",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-router-redux": "^5.0.18",
+    "axios": "^0.18.0",
+    "babel-loader": "8.0.4",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "express": "^4.17.1",
+    "helmet": "^3.15.0",
+    "immutable": "^4.0.0-rc.12",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.3",
+    "react-test-renderer": "^16.8.6",
+    "reactjs-popup": "^1.4.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "request": "^2.88.0",
+    "reselect": "^4.0.0",
+    "tedious": "^5.0.3",
+    "typescript": "3.3.1"
+  },
+  "scripts": {
+    "staging": "set PORT=3001 && node server.js",
+    "start": "react-scripts start",
+    "server": "node server/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "start:server": "pm2 start src/server.js -i 0",
+    "stop": "pm2 stop all",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

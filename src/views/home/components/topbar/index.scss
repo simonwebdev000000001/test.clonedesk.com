@@ -1,0 +1,40 @@
+.page-header.navbar.navbar-fixed-top, .page-header.navbar.navbar-static-top {
+  z-index: 9995;
+}
+.page-header.navbar {
+  background-color: #2b3643;
+}
+.page-header.navbar {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 50px;
+  min-height: 50px;
+  filter: none;
+  background-image: none;
+}
+.page-header.navbar .page-logo {
+  float: left;
+  display: block;
+  width: 235px;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.page-header.navbar .menu-toggler.sidebar-toggler {
+  float: right;
+  margin: 15.5px 0 0;
+}
+
+.page-header.navbar .menu-toggler {
+  cursor: pointer;
+  opacity: .7;
+  filter: alpha(opacity=70);
+  display: block;
+  webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -ms-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}

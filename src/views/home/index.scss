@@ -1,0 +1,17 @@
+@import "../../styles/variable";
+
+.page-wrapper{
+  color: white;
+  *{
+    color: white;
+  }
+}
+.page-logo > a > h3, .login > .logo > a > h3 {
+  font-weight: bolder;
+  margin-top: 10px !important;
+}
+.page-footer {
+  padding: 8px 20px 5px;
+  font-size: 13px;
+  height: 33px;
+}
